@@ -1,0 +1,10 @@
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\CardioRiskApplication.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\controller\PredictionController.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\dto\HistoryItemDto.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\dto\PredictRequestDto.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\dto\PredictResponseDto.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\entity\PredictionRecord.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\exception\ApiException.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\exception\GlobalExceptionHandler.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\repository\PredictionRepository.java
+C:\Users\ADMIN\OneDrive\Desktop\HEART\backend\src\main\java\com\example\cardiorisk\service\PredictionService.java

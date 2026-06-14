@@ -1,0 +1,35 @@
+{
+  "name": "cardio-risk-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "ml:deps": "python -m pip install -r ../ml-service/requirements.txt",
+    "ml:free": "node scripts/free-ml-port.mjs",
+    "ml": "cross-env DATA_PATH=../heart.csv python -m uvicorn main:app --app-dir ../ml-service --host 127.0.0.1 --port 8010",
+    "dev": "concurrently -n ML,WEB -c magenta,cyan \"npm:ml\" \"vite\"",
+    "dev:web": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "framer-motion": "^12.38.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

@@ -1,0 +1,10 @@
+com\example\cardiorisk\repository\PredictionRepository.class
+com\example\cardiorisk\dto\PredictResponseDto.class
+com\example\cardiorisk\CardioRiskApplication.class
+com\example\cardiorisk\exception\ApiException.class
+com\example\cardiorisk\dto\PredictRequestDto.class
+com\example\cardiorisk\dto\HistoryItemDto.class
+com\example\cardiorisk\service\PredictionService.class
+com\example\cardiorisk\entity\PredictionRecord.class
+com\example\cardiorisk\exception\GlobalExceptionHandler.class
+com\example\cardiorisk\controller\PredictionController.class
